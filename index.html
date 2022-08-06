@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Advinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="initial">
+            <div id="description">
+                <h1>Jogo da Advinhação</h1>
+                <p>Adivinhe um número entre 0 e 10</p>
+            </div>
+            <form>
+                <input type="text" required>
+                <button type="submit">Tentar</button>
+            </form>
+        </div>
+        <div id="result" class="hide">
+            <h2>Acertou em <span>3</span> vezes</h2>
+            <button id="reset">Jogar novamente</button>
+        </div>
+    </div>
+</body>
+</html>
