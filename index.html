@@ -15,14 +15,15 @@
                 <p>Adivinhe um número entre 0 e 10</p>
             </div>
             <form>
-                <input type="text" required>
-                <button type="submit">Tentar</button>
+                <input id="inputNumber" type="number" required>
+                <button id="try" type="submit">Tentar</button>
             </form>
         </div>
         <div id="result" class="hide">
-            <h2>Acertou em <span>3</span> vezes</h2>
+            <h2>Acertou em <span id="attempts"></span> vez<span id="plural"></span></h2>
             <button id="reset">Jogar novamente</button>
         </div>
     </div>
+    <script src="src/main.js"></script>
 </body>
 </html>

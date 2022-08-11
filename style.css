@@ -85,6 +85,11 @@ input{
     border-radius: .4rem 0 0 .4rem;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
 
 
 /* Result */
@@ -92,4 +97,8 @@ h2{
     font-size: 2.4rem;
     font-weight: normal;
     margin-bottom: 3.3rem;
+}
+
+#result button{
+    border-radius: .4rem;
 }
